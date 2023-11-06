@@ -30,12 +30,12 @@ ul {
     transition: 0.3s;
     width: 15em;
     display: inline-block;
-    margin: 0px 20px 0 100px;
+    margin: 10px 20px 40px 100px;
     height: 40vh;
   }
   
   .js{
-    margin: 45px 0 20vh 40vw ;
+    margin: 20px 0 20vh 35vw ;
     width: 20em;
     height: 10em;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -56,8 +56,22 @@ ul {
   }
 
   footer {
+    margin-top: 20px;
     text-align: center;
     padding: 3px;
     background-color: rgb(47, 47, 47);
     color: white;
+  }
+  @media only screen and (max-width: 600px) {
+    .js, .card{
+      margin: 10vh auto;
+
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      display: block;
+      text-align: center;
+    }
+    footer{
+      margin-top: 20vh;
+
+    }
   }
