@@ -35,8 +35,7 @@ ul {
   }
   
   .js{
-    position: relative;
-    bottom: 20vh;
+    margin: 45px 0 20vh 40vw ;
     width: 20em;
     height: 10em;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -47,9 +46,7 @@ ul {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     background-color: aqua;
   }
-  .js{
-    margin: auto 45vw;
-  }
+  
   .container {
     padding: 2px 16px;
   }
